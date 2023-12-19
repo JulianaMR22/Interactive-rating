@@ -4,7 +4,7 @@
   font-family: "Overpass", sans-serif;
 }
 
-.main__container {
+body.main__container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@
   background-color: hsl(216, 12%, 8%);
 }
 
-.main__subsection {
+.main__container .main__subsection {
   background: linear-gradient(
     180deg,
     rgba(68, 83, 100, 1) 0%,
@@ -24,7 +24,7 @@
   padding: 30px;
 }
 
-.main__section__circle {
+.main__container .main__subsection .main__section__circle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,9 +32,12 @@
   width: 53px;
   height: 52px;
   border-radius: 35px;
+  border: 0;
+  color: hsl(217, 12%, 63%);
+  font-size: 17px;
 }
 
-.main__title {
+.main__container .main__title {
   margin-top: 33px;
   margin-bottom: 10px;
   font-size: 19px;
@@ -42,25 +45,24 @@
   color: white;
 }
 
-.main__paragraph {
+.main__container .main__paragraph {
   color: hsl(217, 12%, 63%);
   font-size: 15px;
 }
 
-.main__container__circles {
+.main__container .main__container__circles {
   display: flex;
   justify-content: space-between;
   margin-top: 27px;
-  color: hsl(217, 12%, 63%);
 }
 
-.main__button__submit {
+.main__container div.main__button__submit {
   display: flex;
   justify-content: center;
   margin-top: 27px;
 }
 
-.button__submit {
+.main__button__submit .button__submit {
   background-color: hsl(25, 97%, 53%);
   width: -webkit-fill-available;
   height: 43px;
