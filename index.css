@@ -129,7 +129,7 @@ body.main__container {
   color: hsl(0, 0%, 100%);
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 640px) {
   .main__container .main__subsection {
     width: 84%;
   }
