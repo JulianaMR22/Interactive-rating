@@ -12,6 +12,10 @@ body.main__container {
   background-color: hsl(216, 12%, 8%);
 }
 
+.main__subsection.subsection__visible {
+  display: initial;
+}
+
 .main__container .main__subsection {
   background: linear-gradient(
     180deg,
@@ -35,6 +39,10 @@ body.main__container {
   border: 0;
   color: hsl(217, 12%, 63%);
   font-size: 17px;
+}
+
+.main__container .main__subsection .main__section__circle:hover {
+  background-color: hsl(25, 97%, 53%);
 }
 
 .main__container .main__title {
@@ -71,4 +79,46 @@ body.main__container {
   text-transform: uppercase;
   color: hsl(0, 0%, 100%);
   font-size: 15px;
+}
+
+.main__button__submit .button__submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.main__subsection div.main__section__thanks {
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+}
+
+.main__subsection.subsection__hidden {
+  display: none;
+}
+
+.main__subsection .main__section__punctuaction {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.main__subsection .main__section__punctuaction .paragraph__punctuation {
+  width: 190px;
+  background-color: rgb(68, 83, 100);
+  color: hsla(25, 97%, 53%, 0.724);
+  border-radius: 20px;
+  height: 30px;
+  padding-left: 18px;
+  padding-top: 7px;
+  font-size: 15px;
+}
+
+.main__subsection div.main__title__thanks {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 11px;
+}
+
+.main__subsection .main__paragraph.main__paragraph__thanks {
+  text-align: center;
 }

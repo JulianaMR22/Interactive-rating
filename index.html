@@ -21,7 +21,7 @@
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
   <body class="main__container">
-    <div class="main__subsection">
+    <div class="main__subsection subsection__visible" id="mainSection">
       <div class="main__section__circle">
         <img src="./images/icon-star.svg" alt="" />
       </div>
@@ -35,15 +35,35 @@
         </p>
       </div>
       <div class="main__container__circles">
-        <button class="main__section__circle">1</button>
-        <button class="main__section__circle">2</button>
-        <button class="main__section__circle">3</button>
-        <button class="main__section__circle">4</button>
-        <button class="main__section__circle">5</button>
+        <button class="main__section__circle" id="btnOne">1</button>
+        <button class="main__section__circle" id="btnTwo">2</button>
+        <button class="main__section__circle" id="btnThree">3</button>
+        <button class="main__section__circle" id="btnFour">4</button>
+        <button class="main__section__circle" id="btnFive">5</button>
       </div>
       <div class="main__button__submit">
-        <button class="button__submit">submit</button>
+        <button class="button__submit" id="btn__submit">submit</button>
       </div>
     </div>
+    <div class="main__subsection subsection__hidden" id="secondSection">
+      <div class="main__section__thanks">
+        <img src="./images/illustration-thank-you.svg" alt="" />
+      </div>
+      <div class="main__section__punctuaction">
+        <p class="paragraph__punctuation" id="punctuation">
+          You selected 4 out of 5
+        </p>
+      </div>
+      <div class="main__title main__title__thanks">
+        <h2>Thank you!</h2>
+      </div>
+      <div class="main__paragraph main__paragraph__thanks">
+        <p>
+          We appreciated you taking the time to give a rating. If you ever need
+          more support,don't hesitate to get in touch!
+        </p>
+      </div>
+    </div>
+    <script src="./index.js"></script>
   </body>
 </html>
