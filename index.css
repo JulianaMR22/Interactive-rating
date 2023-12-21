@@ -128,3 +128,16 @@ body.main__container {
   background-color: hsl(25, 97%, 53%);
   color: hsl(0, 0%, 100%);
 }
+
+@media screen and (max-width: 360px) {
+  .main__container .main__subsection {
+    width: 84%;
+  }
+  .main__container .main__title {
+    font-size: 16px;
+  }
+  .main__container .main__subsection .main__section__circle {
+    width: 43px;
+    height: 43px;
+  }
+}
